@@ -1,0 +1,267 @@
+/* TESTIMONIAL & CLIENTS */
+@media all and (min-width: 770px) {
+    .clients-brands {
+        // margin-bottom: 136px;
+        background-image: url("../media/dest/jpg/peoples-like.jpg");
+        background-position: center -186px;
+        background-size: cover;
+        max-height: 1010px;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 560px;
+            background-color: rgba($color: #000, $alpha: 0.5);
+        }
+    }
+    //url("../media/dest/png/fon-gr-testcl.png"), 
+    
+    .comments {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 560px;
+        .wr-comm {
+            position: relative;
+            margin-top: 96px;
+            margin-bottom: 52px;
+            .icon {
+            position: absolute;
+            top: 36px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 35px;
+            height: 30px;
+            fill: #fff;
+            }
+        }
+        .sw-comments {
+            min-width: 0;
+            max-width: 90%;
+            //max-width: 570px;
+            min-height: 200px;
+            .swiper-button-prev::after,
+            .swiper-button-next::after {
+                visibility: hidden;
+            }
+            .swiper-pagination {
+                bottom: 0;
+            }
+    
+            .swiper-pagination-bullet {
+                border-radius: 0;
+                border: 1px solid #444;
+                width: 12px;
+                height: 12px;
+                background-color: transparent;
+                opacity: 0.9;
+            }
+    
+            .swiper-pagination-bullet-active {
+                // border-radius: 0;
+                // width: 12px;
+                // height: 12px;
+                background-color: #ff7200;
+            }
+            .sl-comments {
+                text-align: center;
+            }
+        
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 14px;
+            line-height: 2.15;
+            letter-spacing: 0.5px;
+            //max-width: 972px;
+            //text-align: center;
+            z-index: 5;
+        }
+        h6 {
+            margin: 0;
+            font-family: "mont-reg", sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            z-index: 5;
+            span {
+                font-family: "raleway-med", sans-serif;
+                font-size: 14px;
+                letter-spacing: 0.7px;
+            }
+        }
+    }
+    
+    .brands {
+    
+        background-color: #eee;
+    }
+    .sw-brands {
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        //max-height: 450px;
+        //min-width: 0;
+        max-width: 1170px;
+        height: 450px;
+        //margin: 0 auto;
+        .swiper-button-prev::after,
+        .swiper-button-next::after {
+            visibility: hidden;
+        }
+        .swiper-pagination {
+            visibility: hidden;
+            bottom: 0;
+        }
+    }
+    .sl-brands {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .slider-self {
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 300px) and (max-width: 769px) {
+    .clients-brands {
+        // margin-bottom: 136px;
+        background-image: url("../media/dest/jpg/peoples-like.jpg");
+        background-position: center -186px;
+        background-size: cover;
+        max-height: 1010px;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 560px;
+            background-color: rgba($color: #000, $alpha: 0.5);
+        }
+    }
+    //url("../media/dest/png/fon-gr-testcl.png"), 
+    
+    .comments {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 560px;
+        .wr-comm {
+            position: relative;
+            margin-top: 96px;
+            margin-bottom: 20px;
+            .icon {
+            position: absolute;
+            top: 36px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 35px;
+            height: 30px;
+            fill: #fff;
+            }
+        }
+        .sw-comments {
+            min-width: 0;
+            max-width: 90%;
+            flex-grow: 1;
+            //max-width: 570px;
+            //min-height: 200px;
+            .swiper-button-prev::after,
+            .swiper-button-next::after {
+                visibility: hidden;
+            }
+            .swiper-pagination {
+                bottom: 40px;
+            }
+    
+            .swiper-pagination-bullet {
+                border-radius: 0;
+                border: 1px solid #444;
+                width: 12px;
+                height: 12px;
+                background-color: transparent;
+                opacity: 0.9;
+            }
+    
+            .swiper-pagination-bullet-active {
+                // border-radius: 0;
+                // width: 12px;
+                // height: 12px;
+                background-color: #ff7200;
+            }
+            .sl-comments {
+                text-align: center;
+            }
+        
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 14px;
+            line-height: 1.5;
+            letter-spacing: 0.5px;
+            //max-width: 972px;
+            //text-align: center;
+            z-index: 5;
+        }
+        h6 {
+            margin: 0;
+            font-family: "mont-reg", sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            z-index: 5;
+            span {
+                font-family: "raleway-med", sans-serif;
+                font-size: 14px;
+                letter-spacing: 0.7px;
+            }
+        }
+    }
+    
+    .brands {
+    
+        background-color: #eee;
+    }
+    .sw-brands {
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        //max-height: 450px;
+        //min-width: 0;
+        max-width: 1170px;
+        height: 450px;
+        //margin: 0 auto;
+        .swiper-button-prev::after,
+        .swiper-button-next::after {
+            visibility: hidden;
+        }
+        .swiper-pagination {
+            visibility: hidden;
+            bottom: 0;
+        }
+    }
+    .sl-brands {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .slider-self {
+       // text-align: center;
+        // width: 150%;
+        // height: 150%;
+        img {
+            width: 120%;
+        }
+    }
+}
+

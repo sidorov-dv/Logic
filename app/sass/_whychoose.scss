@@ -1,0 +1,375 @@
+/* WHY CHOOSE */
+@media all and (min-width: 1101px) {
+    .why-choose {
+        padding-top: 70px;
+        padding-bottom: 58px;
+        h3 {
+            margin: 0 0 85px;
+            position: relative;
+            font-family: "mont-reg", sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            color: #444;
+            &::before {
+                content: '';
+                position:absolute;
+                top: 58px;
+                left: 0;
+                width: 281px;
+                height: 1px;
+                background-color: #eee;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 56px;
+                left: 0;
+                width: 50px;
+                height: 3px;
+                background-color: #ff7200;
+            }
+        }
+    }
+    
+    .wr-content {
+        position: relative;
+    } 
+    
+    .book {
+        display: flex;
+        flex-direction: column;
+        max-width: 570px;
+        // height: 490px;
+       // position: relative;
+    }
+    
+    // .book-cont:first-child {
+    //     // display: flex;
+    //     flex-wrap: wrap;
+    //     // align-items: center;
+    //     max-height: 203px;
+    //     // border: solid 1px #ddd;
+    //     // position: relative;
+    // }
+    
+    .book-cont {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 20px;
+        border: solid 1px #ddd;
+        //max-height: 203px;
+        //height: 48px;
+        position: relative;
+        //background-image: url("../media/dest/png/Pol-wc-gr.png");
+        //background-repeat: no-repeat;
+        fill:#444;
+        //cursor: pointer;
+        .tab {
+            width: 50px;
+            height: 50px;
+            background-image: url("../media/dest/png/Pol-wc-gr.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            &:hover {
+                background-image: url("../media/dest/png/Pol-wc-or.png");
+                background-repeat: no-repeat;
+                fill:#fff
+            }
+        }
+        .tab.active {
+            background-image: url("../media/dest/png/Pol-wc-or.png");
+            background-repeat: no-repeat;
+            fill:#fff
+        }
+        h6 {
+            margin: 18px 0;
+            padding-left: 18px;
+            font-family: "mont-reg", sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.65px;
+            color: #444;
+        }
+        p {
+            margin: 0;
+            padding: 10px;
+            border-top: solid 1px #ddd;
+            font-family: "raleway-reg", sans-serif;
+            font-size: 14px;
+            line-height: 2.15;
+            letter-spacing: 0.45px;
+            color: #787878;
+        }
+        .phide {
+            display: none;
+        }
+        .icon {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            top: 24px;
+            left: 22px;
+            transform: translate(-50%, -50%);
+        }
+    }
+    
+    .iphones {
+        position: absolute;
+        left: 608px;
+        top: 2px;
+    }
+}
+
+@media all and (min-width: 770px) and (max-width: 1100px) {
+    .why-choose {
+        padding-top: 70px;
+        padding-bottom: 58px;
+        h3 {
+            margin: 0 0 85px;
+            position: relative;
+            font-family: "mont-reg", sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            color: #444;
+            &::before {
+                content: '';
+                position:absolute;
+                top: 58px;
+                left: 0;
+                width: 281px;
+                height: 1px;
+                background-color: #eee;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 56px;
+                left: 0;
+                width: 50px;
+                height: 3px;
+                background-color: #ff7200;
+            }
+        }
+    }
+    
+    .wr-content {
+        position: relative;
+    } 
+    
+    .book {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        // height: 490px;
+       // position: relative;
+    }
+    
+    // .book-cont:first-child {
+    //     // display: flex;
+    //     flex-wrap: wrap;
+    //     // align-items: center;
+    //     max-height: 203px;
+    //     // border: solid 1px #ddd;
+    //     // position: relative;
+    // }
+    
+    .book-cont {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 20px;
+        border: solid 1px #ddd;
+        //max-height: 203px;
+        //height: 48px;
+        position: relative;
+        //background-image: url("../media/dest/png/Pol-wc-gr.png");
+        //background-repeat: no-repeat;
+        fill:#444;
+        //cursor: pointer;
+        .tab {
+            width: 50px;
+            height: 50px;
+            background-image: url("../media/dest/png/Pol-wc-gr.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            &:hover {
+                background-image: url("../media/dest/png/Pol-wc-or.png");
+                background-repeat: no-repeat;
+                fill:#fff
+            }
+        }
+        .tab.active {
+            background-image: url("../media/dest/png/Pol-wc-or.png");
+            background-repeat: no-repeat;
+            fill:#fff
+        }
+        h6 {
+            margin: 18px 0;
+            padding-left: 18px;
+            font-family: "mont-reg", sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.65px;
+            color: #444;
+        }
+        p {
+            margin: 0;
+            padding: 10px;
+            border-top: solid 1px #ddd;
+            font-family: "raleway-reg", sans-serif;
+            font-size: 14px;
+            line-height: 2.15;
+            letter-spacing: 0.45px;
+            color: #787878;
+        }
+        .phide {
+            display: none;
+        }
+        .icon {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            top: 24px;
+            left: 22px;
+            transform: translate(-50%, -50%);
+        }
+    }
+    
+    .iphones {
+        position: absolute;
+        left: 55vw;
+        top: 2px;
+        width: 37vw;
+    }
+}
+
+@media all and (min-width: 300px) and (max-width: 769px) {
+    .why-choose {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        h3 {
+            margin: 0 0 85px;
+            position: relative;
+            font-family: "mont-reg", sans-serif;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            color: #444;
+            &::before {
+                content: '';
+                position:absolute;
+                top: 58px;
+                left: 0;
+                width: 235px;
+                height: 1px;
+                background-color: #eee;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 56px;
+                left: 0;
+                width: 50px;
+                height: 3px;
+                background-color: #ff7200;
+            }
+        }
+    }
+    
+    .wr-content {
+        position: relative;
+    } 
+    
+    .book {
+        display: flex;
+        flex-direction: column;
+        //max-width: 400px;
+        // height: 490px;
+       // position: relative;
+    }
+    
+    // .book-cont:first-child {
+    //     // display: flex;
+    //     flex-wrap: wrap;
+    //     // align-items: center;
+    //     max-height: 203px;
+    //     // border: solid 1px #ddd;
+    //     // position: relative;
+    // }
+    
+    .book-cont {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 20px;
+        border: solid 1px #ddd;
+        //max-height: 203px;
+        //height: 48px;
+        position: relative;
+        //background-image: url("../media/dest/png/Pol-wc-gr.png");
+        //background-repeat: no-repeat;
+        fill:#444;
+        //cursor: pointer;
+        .tab {
+            width: 50px;
+            height: 50px;
+            background-image: url("../media/dest/png/Pol-wc-gr.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            &:hover {
+                background-image: url("../media/dest/png/Pol-wc-or.png");
+                background-repeat: no-repeat;
+                fill:#fff
+            }
+        }
+        .tab.active {
+            background-image: url("../media/dest/png/Pol-wc-or.png");
+            background-repeat: no-repeat;
+            fill:#fff
+        }
+        h6 {
+            margin: 18px 0;
+            padding-left: 18px;
+            font-family: "mont-reg", sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.65px;
+            color: #444;
+        }
+        p {
+            margin: 0;
+            padding: 10px;
+            border-top: solid 1px #ddd;
+            font-family: "raleway-reg", sans-serif;
+            font-size: 14px;
+            line-height: 2.15;
+            letter-spacing: 0.45px;
+            color: #787878;
+        }
+        .phide {
+            display: none;
+        }
+        .icon {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            top: 24px;
+            left: 22px;
+            transform: translate(-50%, -50%);
+        }
+    }
+    
+    .iphones {
+        display: none;
+        position: absolute;
+        left: 55vw;
+        top: 2px;
+        width: 37vw;
+    }
+}

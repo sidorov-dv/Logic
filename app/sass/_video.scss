@@ -1,0 +1,338 @@
+/* VIDEO */
+@media all and (min-width:1201px) {
+    .video {
+        padding-top: 65px;
+        padding-bottom: 35px;
+        //margin-bottom: 135px;
+        //height: 500px;
+        //box-sizing: border-box;
+        // background-image: url("../media/dest/png/fon-zalivka.png"), url("../media/dest/jpg/girl.jpg");
+        // background-position: 0 0, center;
+        // background-repeat: no-repeat, no-repeat;
+        // background-size: cover, cover;
+        
+    }
+    
+    .video-intro {
+        max-height: 652px;
+        overflow: hidden;
+        
+      //  display: flex;
+       // flex-direction: column;
+      //  align-items: center;
+      //  justify-content: center;
+        // background-image: url("../media/dest/jpg/girl.jpg");
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        position: relative;
+        // &::before {
+        //     content: '';
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     width: 100%;
+        //     height: 486px;
+        //     background-color: rgba($color: #000, $alpha: 0.5);
+        // }
+        video {
+            width: 100%;
+            height: 652px;
+            object-fit: cover;
+            
+           
+           // height: 100%;
+        }
+        .play-btn, .pause-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            &.hidden-btn {
+                display: none;
+            }
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            fill:#fff;
+        }
+        & .icon:hover {
+            fill:#ff7200;
+        }
+        .text-intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            margin: 42px 0 0;
+            font-family: "mont-reg", sans-serif;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            z-index: 5;
+            &.hidden-btn {
+                display: none;
+            }
+            // text-align: center;
+        }
+    }
+    
+}
+
+@media all and (min-width:770px) and (max-width:1200px) {
+    .video {
+        padding-top: 65px;
+        padding-bottom: 35px;
+        //margin-bottom: 135px;
+        //height: 500px;
+        //box-sizing: border-box;
+        // background-image: url("../media/dest/png/fon-zalivka.png"), url("../media/dest/jpg/girl.jpg");
+        // background-position: 0 0, center;
+        // background-repeat: no-repeat, no-repeat;
+        // background-size: cover, cover;
+        
+    }
+    
+    .video-intro {
+        max-height: 652px;
+        overflow: hidden;
+        
+      //  display: flex;
+       // flex-direction: column;
+      //  align-items: center;
+      //  justify-content: center;
+        // background-image: url("../media/dest/jpg/girl.jpg");
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        position: relative;
+        // &::before {
+        //     content: '';
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     width: 100%;
+        //     height: 486px;
+        //     background-color: rgba($color: #000, $alpha: 0.5);
+        // }
+        video {
+            width: 100%;
+            height: 652px;
+            object-fit: cover;
+            
+           
+           // height: 100%;
+        }
+        .play-btn, .pause-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            &.hidden-btn {
+                display: none;
+            }
+        }
+       
+        .icon {
+            width: 50px;
+            height: 50px;
+            fill:#fff;
+        }
+        & .icon:hover {
+            fill:#ff7200;
+        }
+        .text-intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            margin: 42px 0 0;
+            font-family: "mont-reg", sans-serif;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            z-index: 5;
+            &.hidden-btn {
+                display: none;
+            }
+            // text-align: center;
+        }
+    }
+   
+    
+}
+
+@media all and (min-width:571px) and (max-width:769px) {
+    .video {
+        padding-top: 65px;
+        padding-bottom: 35px;
+        //margin-bottom: 135px;
+        //height: 500px;
+        //box-sizing: border-box;
+        // background-image: url("../media/dest/png/fon-zalivka.png"), url("../media/dest/jpg/girl.jpg");
+        // background-position: 0 0, center;
+        // background-repeat: no-repeat, no-repeat;
+        // background-size: cover, cover;
+        
+    }
+    
+    .video-intro {
+        max-height: 652px;
+        overflow: hidden;
+        
+      //  display: flex;
+       // flex-direction: column;
+      //  align-items: center;
+      //  justify-content: center;
+        // background-image: url("../media/dest/jpg/girl.jpg");
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        position: relative;
+        // &::before {
+        //     content: '';
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     width: 100%;
+        //     height: 486px;
+        //     background-color: rgba($color: #000, $alpha: 0.5);
+        // }
+        video {
+            width: 100%;
+            max-height: 652px;
+          //object-fit: cover;
+            
+        }
+        
+        .play-btn, .pause-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            &.hidden-btn {
+                display: none;
+            }
+        }
+       
+        .icon {
+            width: 35px;
+            height: 35px;
+            fill:#fff;
+        }
+        & .icon:hover {
+            fill:#ff7200;
+        }
+        .text-intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            margin: 42px 0 0;
+            font-family: "mont-reg", sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            z-index: 5;
+            &.hidden-btn {
+                display: none;
+            }
+            // text-align: center;
+        }
+    }
+   
+  
+}
+
+
+@media all and (min-width:300px) and (max-width:570px) {
+    .video {
+        padding-top: 65px;
+        padding-bottom: 35px;
+        //margin-bottom: 135px;
+        //height: 500px;
+        //box-sizing: border-box;
+        // background-image: url("../media/dest/png/fon-zalivka.png"), url("../media/dest/jpg/girl.jpg");
+        // background-position: 0 0, center;
+        // background-repeat: no-repeat, no-repeat;
+        // background-size: cover, cover;
+        
+    }
+    
+    .video-intro {
+        max-height: 652px;
+        overflow: hidden;
+        
+      //  display: flex;
+       // flex-direction: column;
+      //  align-items: center;
+      //  justify-content: center;
+        // background-image: url("../media/dest/jpg/girl.jpg");
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        position: relative;
+        // &::before {
+        //     content: '';
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     width: 100%;
+        //     height: 486px;
+        //     background-color: rgba($color: #000, $alpha: 0.5);
+        // }
+        video {
+            width: 100%;
+            max-height: 652px;
+            
+           
+           // height: 100%;
+        }
+        .play-btn, .pause-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            &.hidden-btn {
+                display: none;
+            }
+        }
+       
+        .icon {
+            width: 35px;
+            height: 35px;
+            fill:#fff;
+        }
+        & .icon:hover {
+            fill:#ff7200;
+        }
+        .text-intro {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            margin: 42px 0 0;
+            font-family: "mont-reg", sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            z-index: 5;
+            // text-align: center;
+        }
+    }
+   
+  
+}
+
+//url("../media/dest/png/fon-zalivka.png"),

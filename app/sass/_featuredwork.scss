@@ -1,0 +1,408 @@
+/* FEATURED WORK*/
+@media all and (min-width:1201px) {
+    .featured-work {
+        padding-top: 70px;
+        padding-bottom: 65px;
+    }
+    .feature {
+        // position: relative;
+        h3 {
+            margin: 0 0 84px;
+            position: relative;
+            font-family: "mont-reg", sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            color: #444;
+            &::before {
+                content: '';
+                position:absolute;
+                top: 58px;
+                left: 0;
+                width: 286px;
+                height: 1px;
+                background-color: #eee;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 56px;
+                left: 0;
+                width: 50px;
+                height: 3px;
+                background-color: #ff7200;
+            }
+        }
+        .img-text {
+            display: flex;
+            max-height: 382px;
+        }
+        .my-sw {
+            min-width: 0;
+            max-width: 570px;
+            height: 382px;
+            .swiper-button-prev::after,
+            .swiper-button-next::after {
+                visibility: hidden;
+            }
+            .swiper-pagination {
+                bottom: 0;
+            }
+    
+            .swiper-pagination-bullet {
+                border-radius: 0;
+                border: 1px solid #444;
+                width: 12px;
+                height: 12px;
+                background-color: transparent;
+            }
+    
+            .swiper-pagination-bullet-active {
+                // border-radius: 0;
+                // width: 12px;
+                // height: 12px;
+                background-color: #ff7200;
+            }
+            // .swiper-pagination-fraction {
+            //     // width: 16px;
+            //     // height: 16px;
+            //     font-size: 20px;
+            //     color: #ff7200;
+            // }
+        }
+    
+        .slider-img {
+            text-align: center;
+            img {
+                //max-width: 100%;
+                width: 100%;
+                max-height: 340px;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .sign-text {
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+            // position: absolute;
+            // left: 602px;
+            // bottom: 4px;
+            // max-height: 340px;
+            max-width: 570px;
+            h6 {
+                margin: 0 0 24px;
+                font-family: "mont-reg", sans-serif;
+                font-size: 16px;
+                text-transform: uppercase;
+                letter-spacing: 0.8px;
+                color:#444;
+            }
+            p{
+                margin: 0;
+                font-size: 14px;
+                letter-spacing: 0.55px;
+                line-height: 2.14;
+                color: #787878
+            }
+            p:first-of-type {
+                margin: 0 0 30px;
+                font-size: 14px;
+                letter-spacing: 0.45px;
+                line-height: 2.14;
+                color: #787878
+            }
+            span {
+                font-family: "mont-reg", sans-serif;
+                font-size: 14px;
+                letter-spacing: 0.55px;
+                color:#444;
+            }
+            button {
+                margin-top: 44px;
+                width: 168px;
+                height: 48px;
+                border: solid 1px #ddd;
+                color: #444;
+                font-family: "mont-reg", sans-serif;
+                font-size: 13px;
+                text-transform: uppercase;
+                letter-spacing: 1.95px;
+            }    
+        }
+    }  
+}
+
+@media all and (min-width:770px) and (max-width:1200px) {
+    .featured-work {
+        padding-top: 70px;
+        padding-bottom: 65px;
+    }
+    .feature {
+        // position: relative;
+        h3 {
+            margin: 0 0 84px;
+            position: relative;
+            font-family: "mont-reg", sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            color: #444;
+            &::before {
+                content: '';
+                position:absolute;
+                top: 58px;
+                left: 0;
+                width: 286px;
+                height: 1px;
+                background-color: #eee;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 56px;
+                left: 0;
+                width: 50px;
+                height: 3px;
+                background-color: #ff7200;
+            }
+        }
+        .img-text {
+            display: flex;
+            flex-direction: column;
+            //max-height: 382px;
+        }
+        .my-sw {
+            min-width: 0;
+            max-width: 90vw;
+            height: 500px;
+            margin-bottom: 30px;
+            .swiper-button-prev::after,
+            .swiper-button-next::after {
+                visibility: hidden;
+            }
+            .swiper-pagination {
+                bottom: 12px;
+            }
+    
+            .swiper-pagination-bullet {
+                border-radius: 0;
+                border: 1px solid #444;
+                width: 12px;
+                height: 12px;
+                background-color: transparent;
+            }
+    
+            .swiper-pagination-bullet-active {
+                // border-radius: 0;
+                // width: 12px;
+                // height: 12px;
+                background-color: #ff7200;
+            }
+            // .swiper-pagination-fraction {
+            //     // width: 16px;
+            //     // height: 16px;
+            //     font-size: 20px;
+            //     color: #ff7200;
+            // }
+        }
+    
+        .slider-img {
+            text-align: center;
+            img {
+                //max-width: 100%;
+                width: 100%;
+                height: 450px;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .sign-text {
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+            //margin-left: 30px;
+            // position: absolute;
+            // left: 602px;
+            // bottom: 4px;
+            // max-height: 340px;
+            //max-width: 570px;
+            h6 {
+                margin: 0 0 24px;
+                font-family: "mont-reg", sans-serif;
+                font-size: 16px;
+                text-transform: uppercase;
+                letter-spacing: 0.8px;
+                color:#444;
+            }
+            p{
+                margin: 0;
+                font-size: 14px;
+                letter-spacing: 0.55px;
+                line-height: 2.14;
+                color: #787878
+            }
+            p:first-of-type {
+                margin: 0 0 30px;
+                font-size: 14px;
+                letter-spacing: 0.45px;
+                line-height: 2.14;
+                color: #787878
+            }
+            span {
+                font-family: "mont-reg", sans-serif;
+                font-size: 14px;
+                letter-spacing: 0.55px;
+                color:#444;
+            }
+            button {
+                margin-top: 44px;
+                width: 168px;
+                height: 48px;
+                border: solid 1px #ddd;
+                color: #444;
+                font-family: "mont-reg", sans-serif;
+                font-size: 13px;
+                text-transform: uppercase;
+                letter-spacing: 1.95px;
+            }    
+        }
+    }  
+}
+
+@media all and (min-width:300px) and (max-width:769px) {
+    .featured-work {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .feature {
+        // position: relative;
+        h3 {
+            margin: 0 0 84px;
+            position: relative;
+            font-family: "mont-reg", sans-serif;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            color: #444;
+            &::before {
+                content: '';
+                position:absolute;
+                top: 58px;
+                left: 0;
+                width: 235px;
+                height: 1px;
+                background-color: #eee;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 56px;
+                left: 0;
+                width: 50px;
+                height: 3px;
+                background-color: #ff7200;
+            }
+        }
+        .img-text {
+            display: flex;
+            flex-direction: column;
+            //max-height: 382px;
+        }
+        .my-sw {
+            min-width: 0;
+            max-width: 90vw;
+            height: 500px;
+            margin-bottom: 30px;
+            .swiper-button-prev::after,
+            .swiper-button-next::after {
+                visibility: hidden;
+            }
+            .swiper-pagination {
+                bottom: 12px;
+            }
+    
+            .swiper-pagination-bullet {
+                border-radius: 0;
+                border: 1px solid #444;
+                width: 12px;
+                height: 12px;
+                background-color: transparent;
+            }
+    
+            .swiper-pagination-bullet-active {
+                // border-radius: 0;
+                // width: 12px;
+                // height: 12px;
+                background-color: #ff7200;
+            }
+            // .swiper-pagination-fraction {
+            //     // width: 16px;
+            //     // height: 16px;
+            //     font-size: 20px;
+            //     color: #ff7200;
+            // }
+        }
+    
+        .slider-img {
+            text-align: center;
+            img {
+                //max-width: 100%;
+                width: 100%;
+                height: 450px;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .sign-text {
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+            //margin-left: 30px;
+            // position: absolute;
+            // left: 602px;
+            // bottom: 4px;
+            // max-height: 340px;
+            //max-width: 570px;
+            h6 {
+                margin: 0 0 24px;
+                font-family: "mont-reg", sans-serif;
+                font-size: 16px;
+                text-transform: uppercase;
+                letter-spacing: 0.8px;
+                color:#444;
+            }
+            p{
+                margin: 0;
+                font-size: 14px;
+                letter-spacing: 0.55px;
+                line-height: 2.14;
+                color: #787878
+            }
+            p:first-of-type {
+                margin: 0 0 30px;
+                font-size: 14px;
+                letter-spacing: 0.45px;
+                line-height: 2.14;
+                color: #787878
+            }
+            span {
+                font-family: "mont-reg", sans-serif;
+                font-size: 14px;
+                letter-spacing: 0.55px;
+                color:#444;
+            }
+            button {
+                margin-top: 44px;
+                width: 168px;
+                height: 48px;
+                border: solid 1px #ddd;
+                color: #444;
+                font-family: "mont-reg", sans-serif;
+                font-size: 13px;
+                text-transform: uppercase;
+                letter-spacing: 1.95px;
+            }    
+        }
+    }  
+}

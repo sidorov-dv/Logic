@@ -1,0 +1,544 @@
+/* OTHER SERVICES */
+@media all and (min-width: 1201px) {
+    .other-serv {
+        padding-top: 140px;
+        padding-bottom: 35px;
+        // margin-bottom: 60px;
+        h3 {
+            margin: 0 0 83px;
+            position: relative;
+            font-family: "mont-reg", sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #444;
+            &::before {
+                content: '';
+                position:absolute;
+                top: 58px;
+                left: 0;
+                width: 284px;
+                height: 1px;
+                background-color: #eee;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 56px;
+                left: 0;
+                width: 50px;
+                height: 3px;
+                background-color: #ff7200;
+            }
+        }
+    }
+    
+    .serv-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1125px;
+    }
+    
+    .list-num {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 53px;
+        margin-right: 74px;
+        max-width: 325px;
+        .box {
+            margin-right: 17px;
+            position: relative;
+            width: 68px;
+            height: 68px;
+            background-image: url("../media/dest/png/Pol-os-op.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            fill: #444;
+            //cursor: pointer;
+            &:hover {
+                background-image: url("../media/dest/png/Pol-os-or.png");
+                background-repeat: no-repeat;
+                //background-size: contain;
+                fill:#fff;
+    
+            }
+        }
+        // .box.active {
+        //     margin-right: 17px;
+        //     position: relative;
+        //     width: 66px;
+        //     height: 70px;
+        //     background-image: url("../media/dest/png/Pol-os-or.png");
+        //     background-repeat: no-repeat;
+        //     fill:#fff;
+        //     //cursor: pointer;
+        // }
+    
+            
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 26px;
+            height: 26px;
+        }
+    
+        
+        h6 {
+            margin: 0;
+            font-family: "mont-reg", sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color:#444;
+        }
+        p {
+            margin: 15px 0;
+            font-family: "raleway-reg", sans-serif;
+            font-size: 14px;
+            line-height: 2.15;
+            letter-spacing: 0.5px;
+            color:#787878;
+        }
+    
+    }
+    .list-num:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+@media all and (min-width: 1090px) and (max-width: 1200px) { 
+    .other-serv {
+        padding-top: 140px;
+        padding-bottom: 35px;
+        // margin-bottom: 60px;
+        h3 {
+            margin: 0 0 83px;
+            position: relative;
+            font-family: "mont-reg", sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #444;
+            &::before {
+                content: '';
+                position:absolute;
+                top: 58px;
+                left: 0;
+                width: 284px;
+                height: 1px;
+                background-color: #eee;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 56px;
+                left: 0;
+                width: 50px;
+                height: 3px;
+                background-color: #ff7200;
+            }
+        }
+    }
+    
+    .serv-list {
+        display: flex;
+        flex-wrap: wrap;
+        //width: 1125px;
+    }
+    
+    .list-num {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 53px;
+        margin-right: 20px;
+        max-width: 500px;
+        .box {
+            margin-right: 17px;
+            position: relative;
+            width: 68px;
+            height: 68px;
+            background-image: url("../media/dest/png/Pol-os-op.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            fill: #444;
+            //cursor: pointer;
+            &:hover {
+                background-image: url("../media/dest/png/Pol-os-or.png");
+                background-repeat: no-repeat;
+                fill:#fff;
+    
+            }
+        }
+        // .box.active {
+        //     margin-right: 17px;
+        //     position: relative;
+        //     width: 66px;
+        //     height: 70px;
+        //     background-image: url("../media/dest/png/Pol-os-or.png");
+        //     background-repeat: no-repeat;
+        //     fill:#fff;
+        //     //cursor: pointer;
+        // }
+    
+            
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 26px;
+            height: 26px;
+        }
+    
+        
+        h6 {
+            margin: 0;
+            font-family: "mont-reg", sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color:#444;
+        }
+        p {
+            margin: 15px 0;
+            font-family: "raleway-reg", sans-serif;
+            font-size: 14px;
+            line-height: 2.15;
+            letter-spacing: 0.5px;
+            color:#787878;
+        }
+    
+    }
+    // .list-num:nth-child(3n) {
+    //     margin-right: 0;
+    // }
+}
+
+@media all and (min-width: 900px) and (max-width: 1089px) { 
+    .other-serv {
+        padding-top: 140px;
+        padding-bottom: 35px;
+        // margin-bottom: 60px;
+        h3 {
+            margin: 0 0 83px;
+            position: relative;
+            font-family: "mont-reg", sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #444;
+            &::before {
+                content: '';
+                position:absolute;
+                top: 58px;
+                left: 0;
+                width: 284px;
+                height: 1px;
+                background-color: #eee;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 56px;
+                left: 0;
+                width: 50px;
+                height: 3px;
+                background-color: #ff7200;
+            }
+        }
+    }
+    
+    .serv-list {
+        display: flex;
+        flex-wrap: wrap;
+        //width: 1125px;
+    }
+    
+    .list-num {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 53px;
+        margin-right: 20px;
+        max-width: 400px;
+        .box {
+            margin-right: 17px;
+            position: relative;
+            width: 68px;
+            height: 68px;
+            background-image: url("../media/dest/png/Pol-os-op.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            fill: #444;
+            //cursor: pointer;
+            &:hover {
+                background-image: url("../media/dest/png/Pol-os-or.png");
+                background-repeat: no-repeat;
+                fill:#fff;
+    
+            }
+        }
+        // .box.active {
+        //     margin-right: 17px;
+        //     position: relative;
+        //     width: 66px;
+        //     height: 70px;
+        //     background-image: url("../media/dest/png/Pol-os-or.png");
+        //     background-repeat: no-repeat;
+        //     fill:#fff;
+        //     //cursor: pointer;
+        // }
+    
+            
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 26px;
+            height: 26px;
+        }
+    
+        
+        h6 {
+            margin: 0;
+            font-family: "mont-reg", sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color:#444;
+        }
+        p {
+            margin: 15px 0;
+            font-family: "raleway-reg", sans-serif;
+            font-size: 14px;
+            line-height: 2.15;
+            letter-spacing: 0.5px;
+            color:#787878;
+        }
+    
+    }
+    // .list-num:nth-child(3n) {
+    //     margin-right: 0;
+    // }
+}
+
+@media all and (min-width: 770px) and (max-width: 899px) { 
+    .other-serv {
+        padding-top: 100px;
+        padding-bottom: 35px;
+        // margin-bottom: 60px;
+        h3 {
+            margin: 0 0 83px;
+            position: relative;
+            font-family: "mont-reg", sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #444;
+            &::before {
+                content: '';
+                position:absolute;
+                top: 58px;
+                left: 0;
+                width: 284px;
+                height: 1px;
+                background-color: #eee;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 56px;
+                left: 0;
+                width: 50px;
+                height: 3px;
+                background-color: #ff7200;
+            }
+        }
+    }
+    
+    .serv-list {
+        display: flex;
+        flex-wrap: wrap;
+        //width: 1125px;
+    }
+    
+    .list-num {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 53px;
+        margin-right: 20px;
+        max-width: 330px;
+        .box {
+            margin-right: 17px;
+            position: relative;
+            width: 68px;
+            height: 68px;
+            background-image: url("../media/dest/png/Pol-os-op.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            fill: #444;
+            //cursor: pointer;
+            &:hover {
+                background-image: url("../media/dest/png/Pol-os-or.png");
+                background-repeat: no-repeat;
+                fill:#fff;
+    
+            }
+        }
+        // .box.active {
+        //     margin-right: 17px;
+        //     position: relative;
+        //     width: 66px;
+        //     height: 70px;
+        //     background-image: url("../media/dest/png/Pol-os-or.png");
+        //     background-repeat: no-repeat;
+        //     fill:#fff;
+        //     //cursor: pointer;
+        // }
+    
+            
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 26px;
+            height: 26px;
+        }
+    
+        
+        h6 {
+            margin: 0;
+            font-family: "mont-reg", sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color:#444;
+        }
+        p {
+            margin: 15px 0;
+            font-family: "raleway-reg", sans-serif;
+            font-size: 14px;
+            line-height: 2.15;
+            letter-spacing: 0.5px;
+            color:#787878;
+        }
+    
+    }
+    // .list-num:nth-child(3n) {
+    //     margin-right: 0;
+    // }
+}
+
+@media all and (min-width: 300px) and (max-width: 769px) { 
+    .other-serv {
+        padding-top: 70px;
+        padding-bottom: 35px;
+        // margin-bottom: 60px;
+        h3 {
+            margin: 0 0 83px;
+            position: relative;
+            font-family: "mont-reg", sans-serif;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #444;
+            &::before {
+                content: '';
+                position:absolute;
+                top: 58px;
+                left: 0;
+                width: 240px;
+                height: 1px;
+                background-color: #eee;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 56px;
+                left: 0;
+                width: 50px;
+                height: 3px;
+                background-color: #ff7200;
+            }
+        }
+    }
+    
+    .serv-list {
+        display: flex;
+        flex-wrap: wrap;
+        //width: 1125px;
+    }
+    
+    .list-num {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 15px;
+        //margin-right: 20px;
+        //max-width: 330px;
+        .box {
+            margin-right: 6px;
+            position: relative;
+            width: 50px;
+            height: 50px;
+            background-image: url("../media/dest/png/Pol-os-op.png");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            fill: #444;
+            //cursor: pointer;
+            &:hover {
+                background-image: url("../media/dest/png/Pol-os-or.png");
+                background-repeat: no-repeat;
+                fill:#fff;
+    
+            }
+        }
+        // .box.active {
+        //     background-image: url("../media/dest/png/Pol-os-or.png");
+        //     background-repeat: no-repeat;
+        //     fill:#fff;
+        //     //cursor: pointer;
+        // }
+    
+            
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40%;
+            height: 40%;
+        }
+    
+        
+        h6 {
+            margin: 0;
+            font-family: "mont-reg", sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color:#444;
+        }
+        p {
+            margin: 15px 0;
+            font-family: "raleway-reg", sans-serif;
+            font-size: 14px;
+            line-height: 2.15;
+            letter-spacing: 0.5px;
+            color:#787878;
+        }
+    
+    }
+    // .list-num:nth-child(3n) {
+    //     margin-right: 0;
+    // }
+}
+

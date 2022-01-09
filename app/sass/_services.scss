@@ -1,0 +1,393 @@
+/* SERVICES */
+@media all and (min-width:1201px) {
+
+    .services {
+        padding-bottom: 70px;
+    }
+    
+    .bookmark {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 113px;
+        .mark {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 270px;
+            height: 180px;
+            color: #444;
+            fill: #444;
+            background-image: url("../media/dest/png/Polygon-grey.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            &.active {
+                background-image: url("../media/dest/png/Polygon-orange.png");
+                color:#fff;
+                fill:#fff;
+            }
+            // &:first-child {
+            //     background-image: url("../media/dest/png/Polygon-orange.png");
+            //     color:#fff;
+            //     fill:#fff;
+            // }
+            &:hover {
+                background-image: url("../media/dest/png/Polygon-orange.png");
+                color:#fff;
+                fill:#fff;
+            }
+            .icon {
+                padding-top: 44px;
+                padding-bottom: 29px;
+                width: 40px;
+                height: 40px;
+            }
+            .text {
+                font-family: "mont-reg", sans-serif;
+                font-size: 16px;
+                text-transform: uppercase;
+                letter-spacing: 0.8px;
+            }
+        }
+    }
+    
+    .description {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        // &::after {
+        //     content: '';
+        //     display: block;
+        //     padding-top: 100%;
+        // }
+        h4 {
+            // position: relative;
+            margin: 0 0 25px;
+            font-family: "mont-reg", sans-serif;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #444;
+            // &::before {
+            //     content: '';
+            //     position: absolute;
+            //     top: 50px;
+            //     left: 0px;
+            //     width: 50px;
+            //     height: 3px;
+            //     background-color: #ff7200;
+            // }
+        }
+        .line-or {
+            width: 50px;
+            height: 3px;
+            background-color: #ff7200;
+            // margin-bottom: 46px;
+    
+        }
+        .line {
+            width: 170px;
+            height: 1px;
+            background-color: #eee;
+            margin-bottom: 46px;
+        }
+        p {
+            margin: 0 0 40px;
+            max-width: 570px;
+            font-family: "raleway-reg", sans-serif;
+            font-size: 14px;
+            line-height: 2.15;
+            letter-spacing: 0.5px;
+            color: #787878;
+        }
+        button {
+            width: 170px;
+            height: 50px;
+            font-family: "mont-reg", sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1.95px;
+            background-color: #ff7200;
+            color: #fff;
+        }
+        .comp {
+            position: absolute;
+            left: 600px;
+            top: -34px;
+            // .screen {
+            //     position: relative;
+            //     left: 185px;
+            // }
+            // .board {
+            //     padding-right: 16px;
+            // }
+        }
+    }
+    
+    .hide {
+        display: none;
+    }
+}
+
+@media all and (min-width:770px) and (max-width: 1200px) {
+
+.services {
+    padding-bottom: 70px;
+}
+
+.bookmark {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 113px;
+    .mark {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 22%;
+        height: 180px;
+        color: #444;
+        fill: #444;
+        background-image: url("../media/dest/png/Polygon-grey.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        &.active {
+            background-image: url("../media/dest/png/Polygon-orange.png");
+            color:#fff;
+            fill:#fff;
+        }
+        // &:first-child {
+        //     background-image: url("../media/dest/png/Polygon-orange.png");
+        //     color:#fff;
+        //     fill:#fff;
+        // }
+        &:hover {
+            background-image: url("../media/dest/png/Polygon-orange.png");
+            color:#fff;
+            fill:#fff;
+        }
+        .icon {
+            padding-top: 44px;
+            padding-bottom: 29px;
+            width: 40px;
+            height: 40px;
+        }
+        .text {
+            font-family: "mont-reg", sans-serif;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+    }
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    // &::after {
+    //     content: '';
+    //     display: block;
+    //     padding-top: 100%;
+    // }
+    h4 {
+        // position: relative;
+        margin: 0 0 25px;
+        font-family: "mont-reg", sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #444;
+        // &::before {
+        //     content: '';
+        //     position: absolute;
+        //     top: 50px;
+        //     left: 0px;
+        //     width: 50px;
+        //     height: 3px;
+        //     background-color: #ff7200;
+        // }
+    }
+    .line-or {
+        width: 50px;
+        height: 3px;
+        background-color: #ff7200;
+        // margin-bottom: 46px;
+
+    }
+    .line {
+        width: 170px;
+        height: 1px;
+        background-color: #eee;
+        margin-bottom: 46px;
+    }
+    p {
+        margin: 0 0 40px;
+        max-width: 36vw;
+        font-family: "raleway-reg", sans-serif;
+        font-size: 14px;
+        line-height: 2.15;
+        letter-spacing: 0.5px;
+        color: #787878;
+    }
+    button {
+        width: 170px;
+        height: 50px;
+        font-family: "mont-reg", sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1.95px;
+        background-color: #ff7200;
+        color: #fff;
+    }
+    .comp {
+        position: absolute;
+        left: 420px;
+        top: 20%;
+        width: 40vw;
+        //top: -34px;
+        // .screen {
+        //     position: relative;
+        //     left: 185px;
+        // }
+        // .board {
+        //     padding-right: 16px;
+        // }
+    }
+}
+
+.hide {
+    display: none;
+}
+}
+
+@media all and (min-width:300px) and (max-width: 769px) {
+
+    .services {
+        padding-bottom: 35px;
+    }
+    
+    .bookmark {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        .mark {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 23%;
+            height: 120px;
+            color: #444;
+            fill: #444;
+            background-image: url("../media/dest/png/Polygon-grey.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            &.active {
+                background-image: url("../media/dest/png/Polygon-orange.png");
+                //background-size: contain;
+                color:#fff;
+                fill:#fff;
+            }
+            // &:first-child {
+            //     background-image: url("../media/dest/png/Polygon-orange.png");
+            //     color:#fff;
+            //     fill:#fff;
+            // }
+            &:hover {
+                background-image: url("../media/dest/png/Polygon-orange.png");
+                color:#fff;
+                fill:#fff;
+            }
+            .icon {
+                padding-top: 15px;
+                padding-bottom: 10px;
+                width: 30%;
+                height: 30%;
+            }
+            .text {
+                font-family: "mont-reg", sans-serif;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+    
+    .description {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        // &::after {
+        //     content: '';
+        //     display: block;
+        //     padding-top: 100%;
+        // }
+        h4 {
+            // position: relative;
+            margin: 0 0 25px;
+            font-family: "mont-reg", sans-serif;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #444;
+            // &::before {
+            //     content: '';
+            //     position: absolute;
+            //     top: 50px;
+            //     left: 0px;
+            //     width: 50px;
+            //     height: 3px;
+            //     background-color: #ff7200;
+            // }
+        }
+        .line-or {
+            width: 50px;
+            height: 3px;
+            background-color: #ff7200;
+            // margin-bottom: 46px;
+    
+        }
+        .line {
+            width: 170px;
+            height: 1px;
+            background-color: #eee;
+            margin-bottom: 46px;
+        }
+        p {
+            margin: 0 0 40px;
+            max-width: 100%;
+            font-family: "raleway-reg", sans-serif;
+            font-size: 14px;
+            line-height: 2.15;
+            letter-spacing: 0.5px;
+            color: #787878;
+        }
+        button {
+            width: 170px;
+            height: 50px;
+            font-family: "mont-reg", sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1.95px;
+            background-color: #ff7200;
+            color: #fff;
+        }
+        .comp {
+            display: none;
+            position: absolute;
+            left: 420px;
+            width: 40vw;
+            //top: -34px;
+            // .screen {
+            //     position: relative;
+            //     left: 185px;
+            // }
+            // .board {
+            //     padding-right: 16px;
+            // }
+        }
+    }
+    
+    .hide {
+        display: none;
+    }
+    }

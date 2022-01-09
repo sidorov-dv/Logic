@@ -1,0 +1,112 @@
+/* FUN FACTS */
+@media all and (min-width: 770px) {
+    .fun-facts {
+        // margin-bottom: 136px;
+        background-image:url("../media/dest/jpg/boy.jpg");
+        background-position: center top;
+        background-size: cover;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 500px;
+            background-color: rgba($color: #000, $alpha: 0.5);
+        }  
+    }
+    
+    //url("../media/dest/png/fongrey-funfacts.png"), 
+    
+    .wr-fon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+    }
+    
+    .facts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 140px;
+        z-index: 5;
+        span {
+            font-family: "mont-reg", sans-serif;
+        }
+        .num {
+            font-size: 45px;
+            letter-spacing: 2.25px;
+        }
+        .desc {
+            margin-bottom: 7px;
+            font-size: 13px;
+            letter-spacing: 0.65px;
+            text-transform: uppercase;
+        }
+        .icon {
+            width: 30px;
+            height: 30px;
+            fill: #ff7200;
+        }
+    }
+}
+
+@media all and (min-width: 300px) and (max-width: 769px) {
+    .fun-facts {
+        // margin-bottom: 136px;
+        background-image:url("../media/dest/jpg/boy.jpg");
+        background-position: center top;
+        background-size: cover;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 500px;
+            background-color: rgba($color: #000, $alpha: 0.5);
+        }  
+    }
+    
+    //url("../media/dest/png/fongrey-funfacts.png"), 
+    
+    .wr-fon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+    }
+    
+    .facts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        opacity: 0.75;
+        //height: 140px;
+        z-index: 5;
+        span {
+            font-family: "mont-reg", sans-serif;
+        }
+        .num {
+            font-size: 30px;
+            letter-spacing: 2.25px;
+        }
+        .desc {
+            margin-bottom: 7px;
+            font-size: 13px;
+            letter-spacing: 0.65px;
+            text-transform: uppercase;
+        }
+        .icon {
+            width: 30px;
+            height: 30px;
+            fill: #ff7200;
+            margin-bottom: 10px;
+        }
+    }
+}
